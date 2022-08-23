@@ -1,4 +1,8 @@
-# vue-chat-app
+# Vue Chat App
+
+[![medium story](https://img.shields.io/badge/Medium-Story-%23000?logo=medium)](https://medium.com/@alen.ajam/building-a-simple-chat-app-with-vue-js-462c4a53c6ad)
+
+A simple chat app which illustrates all the fundamentals of Vue.js
 
 ## Project setup
 
