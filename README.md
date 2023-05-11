@@ -3,6 +3,9 @@
 [![medium story](https://img.shields.io/badge/Medium-Story-%23000?logo=medium)](https://medium.com/@alen.ajam/building-a-simple-chat-app-with-vue-js-462c4a53c6ad)
 [![repository license](https://img.shields.io/github/license/oxcened/vue-chat-app)](https://github.com/oxcened/vue-chat-app/blob/master/LICENSE.md)
 
+> **Warning**
+> This project is outdated and uses Vue 2. You should use the [latest version](https://vuejs.org/) instead.
+
 A simple chat app which illustrates all the fundamentals of Vue.js.
 
 Read the companion story on [Medium](https://medium.com/@alen.ajam/building-a-simple-chat-app-with-vue-js-462c4a53c6ad).
