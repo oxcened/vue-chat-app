@@ -1,35 +1,57 @@
-# vue-chat-app
+# Vue Chat App
 
-## Project setup
+[![medium story](https://img.shields.io/badge/Medium-Story-%23000?logo=medium)](https://medium.com/@alen.ajam/building-a-simple-chat-app-with-vue-js-462c4a53c6ad)
+[![repository license](https://img.shields.io/github/license/oxcened/vue-chat-app)](https://github.com/oxcened/vue-chat-app/blob/master/LICENSE.md)
 
-```
-yarn install
-```
+A simple chat app which illustrates all the fundamentals of Vue.js.
 
-### Compiles and hot-reloads for development
+Read the companion story on [Medium](https://medium.com/@alen.ajam/building-a-simple-chat-app-with-vue-js-462c4a53c6ad).
 
-```
-yarn serve
-```
+## Table of contents
 
-### Compiles and minifies for production
+1. [Run on your machine](#run-on-your-machine)
+1. [Build for production](#build-for-production)
+1. [Maintainers](#maintainers)
+1. [License](#license)
 
-```
-yarn build
-```
+## Run on your machine
 
-### Lints and fixes files
+1. Install dependencies
 
-```
-yarn lint
-```
+    ```
+    yarn
+    ```
 
-### Customize configuration
+1. Setup firebase
+    1. This app is meant to work on top of a [Firebase](https://firebase.google.com/) project, so you should create your
+       own.
+    1. Initialize [Firestore](https://firebase.google.com/docs/firestore/quickstart).
+    1. [Obtain the project config object](https://firebase.google.com/docs/web/learn-more#config-object).
+    1. Create an `.env` file in the root of the project. Learn more [here](https://cli.vuejs.org/guide/mode-and-env.html#environment-variables).
+    1. Place inside of it the config object like in `.env.example`.
+    1. Create a `.firebaserc` file in the root of the project like `.firebaserc.example`.
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Run the app
+    ```
+    yarn serve
+    ```
 
-### Firebase configuration
+## Build for production
 
-Firebase config object has been left out on purpose, you may create and connect your own Firebase project to the app though!
+1. Setup environment
 
-Once you have the config object, place it into the [env](https://cli.vuejs.org/guide/mode-and-env.html#environment-variables) file as a JSON object with the key `VUE_APP_FIREBASE_CONFIG`.
+   The same as the third step of [Run on your machine](#run-on-your-machine) applies. Learn
+   more [here](https://cli.vuejs.org/guide/mode-and-env.html#environment-variables).
+
+1. Build the app
+    ```
+    yarn build
+    ```
+    
+## Maintainers
+
+- [oxcened](https://github.com/oxcened)
+
+## License
+
+This project is [MIT licensed](https://github.com/oxcened/vue-chat-app/blob/master/LICENSE.md).
