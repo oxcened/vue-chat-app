@@ -10,6 +10,8 @@ A simple chat app which illustrates all the fundamentals of Vue.js.
 
 Read the companion story on [Medium](https://medium.com/@alen.ajam/building-a-simple-chat-app-with-vue-js-462c4a53c6ad).
 
+![screenshot 1](https://miro.medium.com/max/300/1*PFGjWwJdUVVpPjT43nwD_g.png)
+
 ## Table of contents
 
 1. [Run on your machine](#run-on-your-machine)
